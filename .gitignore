@@ -1,0 +1,17 @@
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Generated output
+build/
+dist/
+coverage/
+
+# Personal uploaded files
+backend/uploads/
+
+# Local backups
+*.zip
+*.bak
+*.old

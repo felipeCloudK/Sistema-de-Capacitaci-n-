@@ -1,0 +1,42 @@
+module.exports = {
+  expo: {
+    name: "Gestión de Personal",
+    slug: "movil",
+    version: "1.0.0",
+    orientation: "portrait",
+    icon: "./assets/icon.png",
+    userInterfaceStyle: "light",
+    newArchEnabled: true,
+    splash: {
+      image: "./assets/splash.png",
+      resizeMode: "contain",
+      backgroundColor: "#ffffff"
+    },
+    ios: {
+      supportsTablet: true,
+      backgroundColor: "#000000",
+      bundleIdentifier: "com.gestionpersonal.app"
+    },
+    android: {
+      adaptiveIcon: {
+        foregroundImage: "./assets/adaptive-icon.png",
+        backgroundColor: "#000000"
+      },
+      edgeToEdgeEnabled: true,
+      softwareKeyboardLayoutMode: "resize",
+      package: "com.gestionpersonal.app",
+      versionCode: 5,
+      permissions: []
+    },
+    web: {
+      favicon: "./assets/favicon.png"
+    },
+    backgroundColor: "#000000",
+    plugins: [],
+    extra: {
+      eas: {
+        projectId: "3e98ef23-067f-4b06-88c2-a1c49ce82f47"
+      }
+    }
+  }
+};
