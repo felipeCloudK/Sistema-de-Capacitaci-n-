@@ -1,4 +1,4 @@
-# M&R Gestión de Personal
+# Gestión de Personal
 
 Aplicación privada de gestión de trabajadores y capacitaciones basada en Express, MongoDB y React.
 
